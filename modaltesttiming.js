@@ -68,10 +68,31 @@ window.onclick = function(event) {
 }
 
 var myVar = setInterval(myTimer, 1000);
+//declares variable "myVar"
+//which tells the document to set a timer , or interval
+//the setInterval function has as its parameters, the
+//function "myTimer", which it calls
+//after a period of 1000 milliseconds
 
 function myTimer() {
+  //declares function "myTimer"
+  //when it is called...(after 1000 miliseconds)
     var d = new Date();
+    //within the function "myTimer" the variable
+    //"d" is declared. The variable looks
+    //for the new function "date()"
     document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+    //the variable tells the page to look
+    //within itself
+    //it loks for the element with the
+    //id tag of "demo". In the HTML
+    //the text there is empty. But when
+    //the function is called this function tells
+    //the page to look inside its innerHTML
+    //and change the text.
+
+    //the text looks within the variable "d" and within that,
+    //calls the function "toLocaleTimeString()"
 }
 
 function myFunction() {

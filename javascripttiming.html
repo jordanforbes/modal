@@ -6,7 +6,18 @@
 
 <button onclick="setTimeout(myFunction, 3000);">Try it</button>
 
+<p>A script on this page starts this clock:</p>
+
+<p id="demo"></p>
+
 <script>
+var myVar = setInterval(myTimer, 1000);
+
+function myTimer() {
+    var d = new Date();
+    document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+}
+
 function myFunction() {
     alert('Hello');
 }

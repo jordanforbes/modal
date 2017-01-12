@@ -5,11 +5,26 @@
   <link rel="stylesheet" href= "modaltest.css">
 </head>
 <body>
+
+
+  <!--timing-->
+  <p>Click "Try it". Wait 3 seconds, and the page will alert "Hello".</p>
+
+  <button onclick="setTimeout(myFunction, 3000);">Try it</button>
+
+  <p>A script on this page starts this clock:</p>
+
+  <p id="demo"></p>
+
+  <!--endtiming-->
+
+
 <!-- Trigger/Open The Modal -->
 <button id="myBtn">Open Modal</button>
   <!--variable btn in javascript looks for
 this id-->
   <!--creates a button-->
+
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
@@ -17,22 +32,15 @@ this id-->
   looks for this id-->
 
   <!-- Modal content -->
+
   <div class="modal-content">
     <span class="close">&times;<!--makes an "x" appear--></span>
     <p>Some text in the Modal..</p>
-
-<!--timing-->
-<p>Click "Try it". Wait 3 seconds, and the page will alert "Hello".</p>
-
-<button onclick="setTimeout(myFunction, 3000);">Try it</button>
-
-<p>A script on this page starts this clock:</p>
-
-<p id="demo"></p>
-
-<!--endtiming-->
-
   </div>
+</div>
+
+
+
   <script src="modaltest.js"></script>
 </body>
 </div>
