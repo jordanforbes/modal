@@ -11,6 +11,21 @@ Proper HTML formatting
 Proper CSS formatting
 */
 
+/*font-family: 'Bungee Shade', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Kumar One', cursive;
+font-family: 'Sigmar One', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Creepster', cursive;
+font-family: 'Kranky', cursive;
+font-family: 'Henny Penny', cursive;*/
+
 .modal{ /*refers to the element with
           the class name "modal"*/
     /* Hidden by default */
@@ -38,6 +53,27 @@ Proper CSS formatting
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+}
+
+.title{
+  display:block;
+  text-align:center;
+
+  height:300px;
+  width:1000px;
+  padding-top:1%;
+  border:1px dashed black;
+  font-family:'creepster', cursive;
+
+}
+.title h1{
+  font-size:1000%;
+}
+.title h1 #Monster{
+}
+
+.title h1 #Adopter{
+
 }
 
 p{
