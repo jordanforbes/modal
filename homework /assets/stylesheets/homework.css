@@ -26,6 +26,16 @@ font-family: 'Creepster', cursive;
 font-family: 'Kranky', cursive;
 font-family: 'Henny Penny', cursive;*/
 
+/*
+lionheart
+*/
+.color1{background-color:	#d9534f;}
+.color2{background-color:	#f9f9f9;}
+.color3{background-color:	#5bc0de;}
+.color4{background-color:	#5cb85c;}
+.color5{background-color:#428bca;}
+
+
 .modal{ /*refers to the element with
           the class name "modal"*/
     /* Hidden by default */
@@ -62,18 +72,27 @@ font-family: 'Henny Penny', cursive;*/
   height:300px;
   width:1000px;
   padding-top:1%;
-  border:1px dashed black;
-  font-family:'creepster', cursive;
 
+  font-family:'Bangers', cursive;
+  float: left;
+}
+#A{
+  color:yellow
 }
 .title h1{
-  font-size:1000%;
+  font-size:500%;
 }
-.title h1 #Monster{
+.title h1 #Beast{
+color:white;
 }
 
 .title h1 #Adopter{
+color:#5bc0de;
+}
 
+.blurry-text {
+   color: transparent;
+   text-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
 p{
