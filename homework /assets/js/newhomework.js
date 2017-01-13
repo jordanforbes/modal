@@ -4,6 +4,25 @@
 //how to use a modal, showcase basic JavaScript
 //skills and understanding of concepts.
 
+/*
+$("button").click(function(){
+    $("#div1").fadeIn();
+    $("#div2").fadeIn("slow");
+    $("#div3").fadeIn(3000);
+});
+*/
+
+//$(selector).toggle(speed,callback);
+/*
+$("button").click(function(){
+    $("p").toggle();
+});
+*/
+/*With jQuery, you can toggle between the
+hide() and show() methods with the toggle() method.
+
+Shown elements are hidden and hidden elements are shown:*/
+
 var thisModal = document.getElementById('myModal');
 //declares the variable "modal"
 //the variable looks inside the document
@@ -20,16 +39,27 @@ var myVar = setInterval(modal, 3000);
 
 var close = document.getElementsByClassName('close')[0];
 //declares a variable "close"
-
+}
 
 function modal(){
 //declares function "modal"
   thisModal.style.display = "block";
-} //IT WORKS
+ //IT WORKS
+  //NOT ANYMORE!
+/*
+$(document).ready(function(){
+  $("#myModal").fadeIn(3000);
+  */
+});
+
+
+
 
 close.onclick=function(){
   //look inside variable "close"
   //when it sees a click, it activates a function
+
+
     thisModal.style.display = "none";
     //goes inside variable "thisModal"
     //which goes inside the document
