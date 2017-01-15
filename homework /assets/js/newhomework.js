@@ -39,7 +39,7 @@ var myVar = setInterval(modal, 3000);
 
 var close = document.getElementsByClassName('close')[0];
 //declares a variable "close"
-}
+
 
 function modal(){
 //declares function "modal"
@@ -50,7 +50,7 @@ function modal(){
 $(document).ready(function(){
   $("#myModal").fadeIn(3000);
   */
-});
+};
 
 
 
